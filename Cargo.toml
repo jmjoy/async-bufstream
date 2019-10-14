@@ -1,0 +1,32 @@
+[package]
+name = "async-bufstream"
+version = "0.1.0"
+authors = ["__JM_Joy__ <918734043@qq.com>"]
+edition = "2018"
+description = """
+Buffered I/O for streams where each read/write half is separately buffered,
+async-std version of bufstream.
+"""
+repository = "https://github.com/jmjoy/async-bufstream"
+license-file = "LICENSE"
+readme = "README.md"
+keywords = [
+    "rust",
+    "buffer",
+    "stream",
+    "read",
+    "reader",
+    "write",
+    "writer",
+    "io",
+    "async",
+    "async-std",
+]
+exclude = [
+    ".gitignore",
+    ".travis.yml",
+    "rustfmt.toml",
+    "config.toml",
+]
+
+[dependencies]
